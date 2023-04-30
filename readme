@@ -1,0 +1,27 @@
+Refer this to pass the mutation
+https://blog.logrocket.com/using-graphql-strawberry-fastapi-next-js/
+
+How to start the strawberry server
+strawberry server <appname>  ex: basic_exmaple_resolver.py or any other file.
+
+How to access the graphql playgroup
+http://localhost:8000/
+
+For query and mutation.
+
+Pass this
+
+mutation MyMutation {
+    addAuthor(name: "Yasoob")
+}
+
+for reading data
+
+query MyQuery {
+    allAuthors
+}
+
+or
+{
+allAuthors
+}
